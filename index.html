@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio weboage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="main.css"> 
+    <script src="https://kit.fontawesome.com/44487500e2.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+</head>
+<body>
+<main>
+<header>
+    <div class= "content-hide">
+        <p><a href="#about">About</a></p>
+        <p><a href="#projects">Projects</a></p>
+        <p><a href="#contact">Contact</a></p>
+    </div>
+</header>
+<nav class ="navigate">
+<div class="dropdown">
+    <div class="menu-button"><i class="fa fa-bars" aria-hidden="true"></i>
+    </div> 
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</div>
+</nav>
+    <section class="hero">
+        <h1>Hey Y'all! I'm Nathaly Cuya, a Thinkful student in the Engineering Flex Program.</h1>
+        <img src="images/profile-1.jpg" class= "profile" alt="profile of me"/>
+    </section>
+    <section class="about-me">
+    <div id="about">
+        <h2>About Me</h2>
+        <p>
+            Currently, I am an aspiring front end developer from Texas!
+            I am a recent graduate from the University of Texas at Austin with a bachelor's degree in Sociology.
+            Austin has been my home for the past 5 years and on my days off from work/school I like to explore new coffee shops, find new music, and implement new, fun ways to stay fit (currently trying yoga)!
+            My interest in web development stemmed from the mantra that as a developer you are a student for life, constantly learning and solving new challenges. I love that as a programmer, you can build almost any idea from the ground up while also physically seeing the fruit of your labor on a website/app. My goal is to use the technical knowledge I've gained thus far as an outlet to be creative in my future projects while also presenting clean, responsive code. My current focus is mainly front-end based ie. Javascript, Jquery, HTML, and CSS. With time, this list will surely grow!
+        </p>
+    </div>
+    </section>
+    <section class="project-section">
+        <div id="projects">
+        <h2>Projects</h2>
+        <div class ="project-2">
+            <h3>Plant Pals: Find and Rate Indoor Plants</h3>
+                <p>"The purpose of this application is to assist the user find an indoor plant based on their needs and other users' experiences. 
+                    The user is able to browse through a directory of indoor plants where basic a summary of each plant is listed. 
+                    The user may also read and leave reviews. A short quiz is also implemented as a tool for users to find a plant match."
+                </p>
+                <img src="images/plant.png" class="plant" alt="plant application"/>
+                <p class="links"><a href="https://plant-pal.now.sh/" target="_blank"> Live Link </a></p>
+                <p class="links"><a href="https://github.com/natcuya/plant-api" target="_blank"> Server Repository </a></p>
+                <p class="links"><a href="https://github.com/natcuya/plant-pals" target="_blank"> Repository Link </a></p>
+            <div class="project-links">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-js"></i>
+            <i class="fab fa-react"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i>SQL</i>
+            </div> 
+        <div class ="project-1">
+        <h3>Generic VS. Brand: Know Your Medication Quiz App</h3>
+            <p>“Generic VS. Brand” is a short and simple quiz application that tests the users’ knowledge. The app utilizes the following technologies:  Jquery, JavaScript, HTML, and CSS. The entire project was then pushed to Github. 
+            </p>
+            <img src="images/quiz-pic.png" class="quizPic" alt="quiz application"/>
+            <p class="links"><a href="https://natcuya.github.io/quiz-app1/" target="_blank"> Live Link </a></p>
+            <p class="links"><a href="https://github.com/natcuya/quiz-app1" target="_blank"> Repository Link </a></p>
+        <div class="project-links">
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-js"></i>
+        <i class="fab fa-css3-alt"></i>
+        </div>  
+        </div>
+            </div>
+            <div class ="project-3">
+                <h3>Music & Mix Application: Experience New Music</h3>
+                    <p>"The purpose of this application is to connect the user to upcoming music events/attractions while simultaneously presenting suggested artists/bands the user may also enjoy. 
+                        The goal is to connect the user to new music experiences. 
+                        This is achieved by using two popular APIs: TicketMaster and TastDive."
+                    </p>
+                    <img src="images/music.png" class="music" alt="music application"/>
+                    <p class="links"><a href="https://natcuya.github.io/music_mix/" target="_blank"> Live Link </a></p>                    <p class="links"><a href="https://github.com/natcuya/music_mix" target="_blank"> Repository Link </a></p>
+                <div class="project-links">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-css3-alt"></i>
+                </div>  
+                </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div id= "contact">
+        <h2>Contact Me</h2>
+    <div class = "contact-info">
+        <a class="info" href="mailto:Nathalycuya@utexas.edu" target="_blank" title="Email"><i class="far fa-envelope"></i></a>
+        <a class ="info" href="https://github.com/natcuya" target="_blank" title="Github profile"><i class="fab fa-github"></i></a>
+        <a class ="info" href="https://www.linkedin.com/in/nathaly-cuya-989128195/" target="_blank" title="linkdin profile"><i class="fab fa-linkedin"></i></a>
+    </div>
+    </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

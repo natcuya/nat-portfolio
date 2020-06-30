@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+  background-color: rgba(15, 46, 87, 0.87);
+  font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    color: white;
+    line-height: 30px;
+    padding: 0px;
+    text-align: center;
+  }
+header {
+  background: rgba(176, 207, 248, 0.863);
+  padding: 2%;
+}
+.project-1, .project-2, .project-3 {
+  text-shadow: 2px  2px 0 #000,
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000;
+}
+.about-me {
+  color:white;
+  background-color: rgba(176, 207, 248, 0.753);
+
+}
+.content-hide{
+  display: none;
+}
+.hero {
+  color:white;
+  text-shadow: 2px  2px 0 #000,
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000;
+}
+p{
+    text-align: left;
+    padding: 10px;
+    margin-top: 0px;
+  }
+a {
+  color:white;
+}
+h1, h2 {
+  text-shadow: 2px  2px 0 #000,
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000;
+}
+h1,h2,h3 {
+  font-family: 'Roboto', sans-serif;
+  }
+h1{
+    font-size: 22px;
+    margin-top: 30px;
+  }
+h2 {
+    text-decoration: underline;
+    font-size: 20px;
+  }
+h3 {
+    font-size: 18px;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 0px;
+  }
+.profile {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+.quizPic {
+  width:55%;
+  height: 60%;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .plant {
+      width:55%;
+      height: 60%;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    .music {
+      width:60%;
+      height: 300px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+.icon {
+    width:30px;
+    height:30px;
+ }
+ .contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+.info {
+  font-size: 50px;
+  flex-direction: row;
+   padding: 10px;
+   color: white;
+   text-shadow: 2px  2px 0 #000,
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000;
+ }
+
+.links {
+  font-size: 15px;
+  line-height: 14px;
+}
+.project-links {
+  font-size: 40px;
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  padding:10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-shadow: 2px  2px 0 #000,
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000;
+}
+.navigate { 
+  background-color: rgba(176, 207, 248, 0.863);
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+ul {
+    list-style-type: none;
+    width: auto;
+    padding: 8px 16px;
+    top: 40px;
+    background-color: white;
+    font-weight:bold;
+    position: center;
+    display: none;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+li a {
+    color: #000;
+    text-decoration: none;
+}
+a:active {
+  color: white;
+}
+li {
+    padding: 8px 16px;
+    margin: 0;
+    width: 200px;
+    border-bottom: 1px solid #e5e5e5;
+}
+li:last-child {
+    border-bottom: none;
+}
+li:hover {
+    background-color: rgb(118, 131, 168);
+    color: white;
+    transition: transform 0.08s linear 0.4s;
+}
+
+.menu-button{
+  transition: transform 0.6s;
+    padding:5px;
+    color: white;
+    font-size: 30px;
+}
+.menu-button:before{
+    width:0px;
+    height:0px;
+    border: 10px solid;
+    border-color: white transparent transparent transparent;
+    right:6px;
+    top:18px;
+}
+  
+section {
+    min-height: 200px;
+    padding: 6% 0;
+   
+  }
+  footer {
+    background-color: rgba(176, 207, 248, 0.863);
+    padding: 1% 0;
+  }
+
+@media screen and (min-width: 750px){
+.content-hide{
+  flex-direction: row;
+  display: inline-flex;
+  padding: 0px;
+  justify-content: space-between;
+  color:white;
+  font-size: 30px;
+}
+
+.info{
+  font-size: 80px;
+}
+.dropdown {
+  display: none;
+    }
+
+ .quizPic {
+    width: 400px;
+      height: 300px;
+    }
+   .profile{
+      width: 500px;
+      height: 500px;
+    }
+  }
+  @media screen and (min-width: 800px){
+
+    .quizPic {
+      width: 600px;
+      height: 400px;
+    }
+    body {
+      font-size: 30px;
+    }
+    h1 {
+      font-size: 40px;
+      line-height: 50px;
+    }
+    h2{
+      font-size: 35px;
+    }
+    h3{
+      font-size: 32px;
+    }
+    .icon {
+      width: 50px;
+      height:50px;
+    }
+    .info {
+    font-size: 100px;
+    }
+  }
