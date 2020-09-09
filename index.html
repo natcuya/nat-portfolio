@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Portfolio weboage</title>
+    <title>Nathaly Cuya Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="main.css"> 
@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
 <main>
@@ -17,38 +18,70 @@
         <p><a href="#about">About</a></p>
         <p><a href="#projects">Projects</a></p>
         <p><a href="#contact">Contact</a></p>
+        <p><a href="#entry">Skills & Tools</a></p>
     </div>
 </header>
 <nav class ="navigate">
 <div class="dropdown">
     <div class="menu-button"><i class="fa fa-bars" aria-hidden="true"></i>
     </div> 
-    <ul>
+    <ul class="index">
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="#entry">Skills & Tools</a></li>
+        <li><a class ="resume" href="https://docs.google.com/document/d/1M6_2BH_wFHC4BbOf_mLR5RHc2A_CgJIy866ldN9CR-g/edit?usp=sharing" target="_blank" title="resume">Download Resume</a></li>
     </ul>
 </div>
 </nav>
     <section class="hero">
-        <h1>Hey Y'all! I'm Nathaly Cuya, a Thinkful student in the Engineering Flex Program.</h1>
+        <h1>Hey! I'm Nathaly Cuya, A Full Stack Developer from Austin, Texas.</h1>
         <img src="images/profile-1.jpg" class= "profile" alt="profile of me"/>
     </section>
     <section class="about-me">
     <div id="about">
         <h2>About Me</h2>
         <p>
-            Currently, I am an aspiring front end developer from Texas!
-            I am a recent graduate from the University of Texas at Austin with a bachelor's degree in Sociology.
-            Austin has been my home for the past 5 years and on my days off from work/school I like to explore new coffee shops, find new music, and implement new, fun ways to stay fit (currently trying yoga)!
-            My interest in web development stemmed from the mantra that as a developer you are a student for life, constantly learning and solving new challenges. I love that as a programmer, you can build almost any idea from the ground up while also physically seeing the fruit of your labor on a website/app. My goal is to use the technical knowledge I've gained thus far as an outlet to be creative in my future projects while also presenting clean, responsive code. My current focus is mainly front-end based ie. Javascript, Jquery, HTML, and CSS. With time, this list will surely grow!
+            I am a recent graduate from the University of Texas at Austin with A Bachelor's degree in Sociology.
+            I gained many of my skills and experience via Thinkful Engineering Emersion Bootcamp. Austin has been my home for the past 5 years and on my days off I like to explore new coffee shops, find new music, and implement new, fun ways to stay fit (currently trying yoga)!
+            My interest in web development stemmed from the mantra that as a developer you are a student for life, constantly learning and solving new challenges. 
+            My goal is to use the technical knowledge I've gained thus far as an outlet to be creative in my future projects while also presenting clean, responsive code. 
+            
         </p>
+        <a class ="resume-bttn" href="https://docs.google.com/document/d/1M6_2BH_wFHC4BbOf_mLR5RHc2A_CgJIy866ldN9CR-g/edit?usp=sharing" target="_blank" title="resume">Download Resume</a>
+
     </div>
+    </section>
+    <section class= "skills">
+        <div class="entry" id="entry">
+            <h2>Skills and Tools</h2>
+            <p>The following is a list of languages, frameworks, and platforms I have experience with and have used for previous projects and applications!</p>
+        </div>
+            <div class= "skills-cards">
+                <div class="skill-card">
+            <ul class="skill1"> 
+                <li> HTML5</li>
+                <li> CSS3</li>
+                <li> Javascript(ES6)</li>
+                <li> Node.js</li>
+                <li> React</li>
+            </ul>
+        </div>
+        <div class="skill-card">
+            <ul class="skill1"> 
+                <li> PostgreSQL</li>
+                <li> Dbeaver</li>
+                <li> Postman</li>
+                <li> GitHub & Git</li>
+                <li> Vscode</li>
+            </ul>  
+        </div>
+        </div>
     </section>
     <section class="project-section">
         <div id="projects">
         <h2>Projects</h2>
-        <div class ="project-2">
+        <div class ="project-1">
             <h3>Plant Pals: Find and Rate Indoor Plants</h3>
                 <p>"The purpose of this application is to assist the user find an indoor plant based on their needs and other users' experiences. 
                     The user is able to browse through a directory of indoor plants where basic a summary of each plant is listed. 
@@ -65,20 +98,20 @@
             <i class="fab fa-css3-alt"></i>
             <i>SQL</i>
             </div> 
-        <div class ="project-1">
-        <h3>Generic VS. Brand: Know Your Medication Quiz App</h3>
-            <p>“Generic VS. Brand” is a short and simple quiz application that tests the users’ knowledge. The app utilizes the following technologies:  Jquery, JavaScript, HTML, and CSS. The entire project was then pushed to Github. 
-            </p>
-            <img src="images/quiz-pic.png" class="quizPic" alt="quiz application"/>
-            <p class="links"><a href="https://natcuya.github.io/quiz-app1/" target="_blank"> Live Link </a></p>
-            <p class="links"><a href="https://github.com/natcuya/quiz-app1" target="_blank"> Repository Link </a></p>
-        <div class="project-links">
-        <i class="fab fa-html5"></i>
-        <i class="fab fa-js"></i>
-        <i class="fab fa-css3-alt"></i>
-        </div>  
-        </div>
             </div>
+            <div class ="project-2">
+                <h3>Generic VS. Brand: Know Your Medication Quiz App</h3>
+                    <p>“Generic VS. Brand” is a short and simple quiz application that tests the users’ knowledge. The app utilizes the following technologies:  Jquery, JavaScript, HTML, and CSS. The entire project was then pushed to Github. 
+                    </p>
+                    <img src="images/quiz-pic.png" class="quizPic" alt="quiz application"/>
+                    <p class="links"><a href="https://natcuya.github.io/quiz-app1/" target="_blank"> Live Link </a></p>
+                    <p class="links"><a href="https://github.com/natcuya/quiz-app1" target="_blank"> Repository Link </a></p>
+                <div class="project-links">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-css3-alt"></i>
+                </div>  
+                </div>
             <div class ="project-3">
                 <h3>Music & Mix Application: Experience New Music</h3>
                     <p>"The purpose of this application is to connect the user to upcoming music events/attractions while simultaneously presenting suggested artists/bands the user may also enjoy. 

@@ -3,22 +3,22 @@ $(document).ready(function() {
     $(".menu-button").click(function() {
         var val = $(this).attr('id');
         if (val == 1) {
-            $("ul").hide();
+            $(".index").hide();
             $(this).attr('id', '0');
         } else {
-            $("ul").show();
+            $(".index").show();
             $(this).attr('id', '1');
         }
     });
 
     //when mouse clicks on menu button and ul link
-    $("ul, .menu-button").mouseup(function() {
+    $(".index, .menu-button").mouseup(function() {
         return false;
     });
 
     //click outside of menu button or ul the list will hide
     $(document).mouseup(function() {
-        $("ul").hide();
+        $(".index").hide();
         $(".menu-button").attr('id', '0');
     });
 });
