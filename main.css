@@ -249,6 +249,9 @@ section {
   }
 
 @media screen and (min-width: 750px){
+  .skill-card li{
+    font-size: 20px;
+  }
 .content-hide{
   flex-direction: row;
   display: inline-flex;
@@ -275,13 +278,21 @@ section {
     }
   }
   @media screen and (min-width: 800px){
+    .plant{
+      width: 600px;
+      height: 400px;
+    }
+    .music {
+      width: 600px;
+      height: 400px;
+    }
 
     .quizPic {
       width: 600px;
       height: 400px;
     }
     body {
-      font-size: 30px;
+      font-size: 1.5rem;
     }
     h1 {
       font-size: 40px;
@@ -299,5 +310,8 @@ section {
     }
     .info {
     font-size: 100px;
+    }
+    .about-me {
+      font-size: 1rem;
     }
   }
