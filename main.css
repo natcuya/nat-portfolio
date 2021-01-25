@@ -17,7 +17,7 @@ header {
 header a {
   color: white;
 }
-.project-1, .project-2, .project-3 {
+.project-1, .project-2, .project-3, .work-1{
 color:  #D18A4B;
 }
 
@@ -95,7 +95,7 @@ h3 {
     display: inline-block;
     margin-top: 10px;
   }
-  .plant {
+  .plant, .houston {
       width:55%;
       height: 60%;
       display: inline-block;
