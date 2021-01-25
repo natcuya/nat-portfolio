@@ -278,7 +278,7 @@ section {
     }
   }
   @media screen and (min-width: 800px){
-    .plant{
+    .plant, .houston{
       width: 600px;
       height: 400px;
     }
