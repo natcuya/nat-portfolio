@@ -1,40 +1,63 @@
 * {
     box-sizing: border-box;
   }
-  
 body {
-  background-color:#EBCAAD;
-  font-family: 'Kumbh Sans', sans-serif;
+  background-image: linear-gradient(to bottom right, #E1ACA5, #EBCAAD);
+  font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     color: white;
     line-height: 30px;
     padding: 0px;
     text-align: center;
     margin: 0;
+   /*  background-color:#EBCAAD;*/
   }
+.projects{
+  background-color: #f0d7c1;
+  display: table;
+  margin: 40px;
+  border: 2px solid #f0d7c1;
+  border-radius: 25px;
+  background-image: linear-gradient(to bottom left, #E1ACA5, #EBCAAD);
+  /*  background-color: #f0d7c1;*/
+}
+
 header {
   padding: 2%;
-  background-color: #f0d7c1;
+  background-color: #E1ACA5;
+  text-align: left;
 }
 header a {
   color: white;
+  text-decoration: none;
 }
 .project-1, .project-2, .project-3, .work-1{
 color:  #D18A4B;
 }
 
-.project-2{
-  background-color: #f0d7c1;
+.project-1, .project-2, .project-3{
+  float: left;
+  width: 33.33%;
+  padding: 15px;
 }
+/* .project-2,.project-3,.project-1{
+  background-color: #f0d7c1;}
+*/
 .about-me {
   color:white;
-  background-color: #D18A4B;
+  padding: 60px;
+}
+#about{
+  border: 2px solid #f0d7c1;
+  border-radius: 25px;
+  padding: 40px;
 }
 .resume-bttn{
   border:3px solid #fff;
   border-radius: 30px;
   padding: 15px 25px;
   color: #D18A4B;
+  text-decoration: none;
   background-color: white;
 }
 .content-hide{
@@ -63,12 +86,14 @@ a {
   color: #D18A4B;
   margin-top: 0px;
 }
-
+.contact{
+  text-align: center;
+}
 h1,h2,h3 {
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   }
 h1{
-    font-size: 22px;
+    font-size: 20px;
     animation-duration: 4s;
     animation-name: slidein;
     margin-top: 30px;
@@ -76,7 +101,8 @@ h1{
 h2 {
     text-decoration: underline;
     font-size: 20px;
-    color:#6B4B2F;
+    color:#6B4B2F; 
+    text-align: left;
   }
 h3 {
     font-size: 18px;
@@ -92,18 +118,25 @@ h3 {
     border: solid;
   }
 .quizPic {
-  width:55%;
+  width:50%;
   height: 60%;
-    display: inline-block;
-    margin-top: 10px;
+  display: inline-block;
+  margin-top: 10px;
   }
-  .plant, .houston {
+.plant {
       width:55%;
       height: 60%;
       display: inline-block;
       margin-top: 10px;
     }
-    .music {
+   .houston {
+      width:50%;
+      height: 40%;
+      border-radius: 25px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+  .music {
       width:60%;
       height: 300px;
       display: inline-block;
@@ -156,8 +189,8 @@ h3 {
   margin-bottom: 40px;
   
 }
-.skills {
-  padding: 50px 20px;
+.skills, .current-work, .projects {
+  padding: 60px;
 }
 .skills-cards{
   display: grid;
@@ -195,7 +228,7 @@ ul {
     width: auto;
     padding: 8px 16px;
     top: 40px;
-    background-color: white;
+    background-color: #CE9C96;
     font-weight:bold;
     position: center;
     display: none;
@@ -219,7 +252,7 @@ a:active {
     border-bottom: none;
 }
 .index li:hover {
-    background-color: #D18A4B;
+    background-color: #CE9C96;
     color: white;
     transition: transform 0.08s linear 0.4s;
 }
@@ -246,8 +279,23 @@ section {
    
   }
   footer {
-    background-color: #9E6839;
+    background-color: #E1ACA5;
     padding: 1% 0;
+  }
+
+  @media screen and (min-width: 100px){
+    .skill-card li{
+      font-size: 20px;
+    }
+    h3{
+      font-size: 20px
+    }
+    .project-1, .project-2, .project-3{
+      width: 100%
+    }
+    .music {
+      width: 60%;
+      height: 200px;
   }
 
 @media screen and (min-width: 750px){
@@ -262,7 +310,6 @@ section {
   color:white;
   font-size: 30px;
 }
-
 .info{
   font-size: 80px;
 }
@@ -271,27 +318,36 @@ section {
     }
 
  .quizPic {
-    width: 400px;
-      height: 300px;
+    width: 200px;
+      height: 200px;
     }
    .profile{
       width: 500px;
       height: 500px;
     }
+    .project-1, .project-2, .project-3{
+      float: left;
+      width: 33.33%;
+      padding: 15px;
+    }
   }
   @media screen and (min-width: 800px){
-    .plant, .houston{
-      width: 600px;
-      height: 400px;
+    .plant {
+      width: 70%;
+      height: 70%;
+    }
+    .houston{
+      width: 30%;
+      height: 30%;
     }
     .music {
-      width: 600px;
-      height: 400px;
+      width: 70%;
+      height: 70%;
     }
 
     .quizPic {
-      width: 600px;
-      height: 400px;
+      width: 70%;
+      height: 70%;
     }
     body {
       font-size: 1.5rem;
@@ -314,6 +370,11 @@ section {
     font-size: 100px;
     }
     .about-me {
-      font-size: 1rem;
+      font-size: 1.5rem;
+      padding: 75px;
+    }
+    .skills, .current-work, .projects {
+      padding: 80px;      
+      font-size: 1.5rem;
     }
   }
